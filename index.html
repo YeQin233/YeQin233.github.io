@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+	<link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" charset="utf-8">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。")
+   			
+   		});
+   		function headbut(){
+   			document.getElementById("headbut1").classList.toggle("show");
+   		}
+		function leadbut(){
+			document.getElementById("leadbut1").classList.toggle("show");
+		}
+		function leafbut(){
+			document.getElementById("leafbut1").classList.toggle("show");
+		}
+		function rightbut(){
+			document.getElementById("boxbut1").classList.toggle("show");
+		}
+		function footbut(){
+			document.getElementById("footbut1").classList.toggle("show");
+		}
+    </script>
+</head>
+<body>
+	<div class="head">
+		<button class="headbut" onclick="headbut()">
+			头部区域
+		</button>
+		<button class="footbut" onclick="footbut()">
+			底部
+		</button>
+		<button class="leafbut" onclick="leafbut()">
+			左侧栏
+		</button>
+		<button class="rightbut" onclick="rightbut()">
+			右侧栏
+		</button>
+		
+		<div class="box" id="boxbut1">
+			<div class="side1" style="float: left;width: 75%;">
+				<p> </p>
+			</div>
+			<div class="side2" style="float: right;width: 25%;">
+				<p>右侧栏</p>
+			</div>
+		</div>
+		
+		
+		<div class="leaf" id="leafbut1">
+			<p>左侧栏</p>
+		</div>
+		
+		<div class="head1-1" id="headbut1">
+			<p>头部区域</p>
+			<button class="lead" onclick="leadbut()">
+				导航栏
+			</button>
+			<div class="lead1-1" id="leadbut1">
+				<a href="#">link</a>
+			</div>
+		</div>
+		
+		<div class="foot" id="footbut1">
+			<p>底部</p>
+		</div>
+		
+		
+</div>
+	
+	
+</body>
+</html>

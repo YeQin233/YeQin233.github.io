@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: #0B61A4;
+	margin: 0;
+}
+
+.head{
+	overflow: hidden;
+	width: 100%;
+	
+}
+
+.head1-1{
+	display: none;
+	position: absolute;
+	background-color: #033E6B;
+	width: 100%;
+}
+.head1-1 p{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+
+.lead1-1{
+	display: none;
+	position: absolute;
+	background-color: #25567B;
+	width: 100%;
+}
+.lead1-1 a{
+	display: block;
+	text-align: center;
+	color: white;
+}
+.lead1-1 a:hover{
+	color: red;
+}
+
+.box{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	}
+.side1 {
+	height: 100%;
+}
+.side2{
+	height: 100%;
+	background-color: #3F92D2;
+}
+.box p{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+
+.leaf{
+	display: none;
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	background-color: #3F92D2
+}
+.leaf p{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+.foot{
+	display: none;
+	position: absolute;
+	background-color: #033E6B;
+	width: 100%;
+	position: fixed;
+	bottom: 0rem;
+}
+.foot p{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+.show{
+	display: block;
+}
